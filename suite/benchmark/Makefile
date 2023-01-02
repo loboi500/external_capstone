@@ -1,12 +1,3 @@
-# Sample Makefile for Capstone Disassembly Engine
-
-LIBNAME = capstone
-
-test_iter_benchmark: test_iter_benchmark.o
-	${CC} $< -O3 -Wall -l$(LIBNAME) -o $@
-
-%.o: %.c
-	${CC} -c -I../../include $< -o $@
-
-clean:
-	rm -rf *.o test_iter_benchmark
+version https://git-lfs.github.com/spec/v1
+oid sha256:2451044a3a80d2d13b9dab6c6119f248030351108dfd8c11122d0bd2d2799d7c
+size 238

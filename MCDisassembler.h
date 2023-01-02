@@ -1,14 +1,3 @@
-/* Capstone Disassembly Engine */
-/* By Nguyen Anh Quynh <aquynh@gmail.com>, 2013-2015 */
-
-#ifndef CS_MCDISASSEMBLER_H
-#define CS_MCDISASSEMBLER_H
-
-typedef enum DecodeStatus {
-	MCDisassembler_Fail = 0,
-	MCDisassembler_SoftFail = 1,
-	MCDisassembler_Success = 3,
-} DecodeStatus;
-
-#endif
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:d841adf87c92132037016ceefca8b6dd2e13d2e8c61fd00be571d0ad17ce5d26
+size 286

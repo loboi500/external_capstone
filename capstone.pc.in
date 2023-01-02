@@ -1,12 +1,3 @@
-prefix=@CMAKE_INSTALL_PREFIX@
-exec_prefix=${prefix}
-libdir=${prefix}/@CMAKE_INSTALL_LIBDIR@
-includedir=${prefix}/include/capstone
-
-Name: capstone
-Description: Capstone disassembly engine
-Version: @VERSION_MAJOR@.@VERSION_MINOR@.@VERSION_PATCH@
-URL: http://www.capstone-engine.org
-archive=${libdir}/libcapstone.a
-Libs: -L${libdir} -lcapstone
-Cflags: -I${includedir}
+version https://git-lfs.github.com/spec/v1
+oid sha256:9abc7bc1a7ea3472c75d1155fb24ba9a628d561ef8ba943530a37282ad156052
+size 365
